@@ -7,18 +7,19 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    color: #333;
+    color: rgb(0, 0, 0);
+    background-color: rgba(73, 73, 73, 0.226);
   }
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: #000000;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: #37393b;
   }
   
   button {
@@ -32,6 +33,7 @@
     border-radius: 5px;
   }
   
+
   button:hover {
     background-color: #3486eb;
   }
@@ -80,6 +82,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
+    background-color: grey;
   }
   
   header h1 {
